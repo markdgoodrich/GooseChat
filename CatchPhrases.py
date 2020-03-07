@@ -1,0 +1,5 @@
+catchPhrases = [
+    'GOOSE',
+    'GEESE',
+    'HONK'
+    ]

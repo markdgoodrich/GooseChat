@@ -1,0 +1,21 @@
+gooseQuotes = [
+    "HONK!",
+    "HONK?",
+    "HONK HONK",
+    "HONK HONK HONK!",
+    "BONK BONK BONK!",
+    "MESS WITH THE HONK, YOU GET THE BONK",
+    "PEACE WAS NEVER AN OPTION",
+    ":dagger:",
+    ":knife:",
+    "I HAVE COME TO RID YOU OF YOUR MATERIALISTC TENDENCIES.",
+    "Honk...",
+    "... ... ... \n\n**HONK**",
+    "HOOOOOOOONNK!",
+    "Hønk",
+    ":swan:",
+    ":gun:",
+    ":earth_africa: :fire:",
+    "HONKY BONK WOMAN",
+    "I HONK THE NAMELESS ETERNAL"
+    ]
