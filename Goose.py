@@ -10,6 +10,7 @@ from GooseQuotes import gooseQuotes
 from GooseAnswers import gooseAnswers
 from GooseDoubt import gooseDoubt
 from GoosePayRespects import goosePayRespects
+from SexyBattleWizard_creation import creation
 #from libraryPoints import get_name
 #from libraryPoints import award_points
 #from libraryPoints import revoke_points
@@ -46,7 +47,10 @@ async def on_message(message):
         bde_item = message.content
         bde_response = "HONK! HONK HONK HOOONK! Translation: *%s is %d%% Big Dick Energy.*" %(bde_item[4:], random.randint(0, 100))
         await message.channel.send(bde_response)
-        
+
+    elif 'SBW CREATE' in message_upper:
+        await message.channel.send(creation())
+     
     if message_upper.endswith('?') and any(x in message_upper for x in catchPhrases):
         answer = random.choice(gooseAnswers)
         await message.channel.send(answer)
